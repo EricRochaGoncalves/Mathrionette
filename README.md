@@ -34,7 +34,7 @@ Bibliotecas de JavaScript para otimizar os cálculos e a interação com o usuá
 
 --
 
-1. Acesse o Mathrionette através deste link: Mathrionette.
+1. Acesse o Mathrionette através deste link: https://mathrionette.onrender.com/.
 
 
 2. Escolha a função que deseja calcular: Selecione entre funções de 1º, 2º ou 3º grau.
