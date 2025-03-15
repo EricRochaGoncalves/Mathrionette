@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Funções</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <nav>
@@ -14,12 +15,26 @@
     <div class="top-container">
         <button onclick="selecionarFuncao(1)">1° Grau</button>
         <button onclick="selecionarFuncao(2)">2° Grau</button>
-        <button onclick="selecionarFuncao(3)">3°+ Grau</button>
+        <button onclick="selecionarFuncao(3)">3° Grau</button>
         <input type="text" id="inputFuncao" placeholder="Selecione uma função" oninput="calcular()">
     </div>
 
     <div class="resultado-container">
-        <h1 id="resultado"></h1>
+        <h1 id="resultado"> </h1>
+    </div>
+    <div class="resume-container">
+        <h3> Mathrionette é um web app para realizar funções matemáticas. <br>
+            Escolha o tipo de função ( se é 1°, 2° ou 3° grau ) e escreva a equação no input.
+            
+        </h3>
+        <div class="contact">
+            <a href="https://github.com/EricRochaGoncalves" title="Git Hub"><i class="fa-brands fa-github" style="color: black; font-size: 35px;"></i></a> 
+            <a href="https://www.linkedin.com/in/eric-rocha-goncalves-developer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="Linkedin"><i class="fa-brands fa-linkedin" style="color: black; font-size: 35px;"></i></a>
+            <a href="https://github.com/EricRochaGoncalves/Mathrionette" title="Repositório"><i class="fa-solid fa-folder" style="color: black;  font-size: 35px;"></i></a>
+            <a href="https://portif-lio-ericgoncalves.onrender.com/" title="Portfólio"><i class="fa-solid fa-paper-plane" style="color: black; font-size: 35px;"></i></a>
+            
+        </div>
+        
     </div>
 
     <script src="script.js"></script>
