@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -6,9 +12,9 @@ body {
 }
 
 nav {
-    background-color: #222;
+    background-color: black;
     color: white;
-    padding: 15px;
+    padding: 25px;
 }
 
 .top-container {
@@ -18,10 +24,11 @@ nav {
     height: 8vh;
     gap: 10px;
     padding: 10px;
+    
 }
 
 button {
-    padding: 10px;
+    padding: 10px 15px;
     border: none;
     cursor: pointer;
     background-color: #007bff;
@@ -34,18 +41,45 @@ button:hover {
 }
 
 input {
-    padding: 10px;
+    padding: 16px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 2px solid black;
 }
 
 .resultado-container {
-    height: 50vh;
+    height: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 15px;
     background-color: #f4f4f4;
     margin-top: 10px;
+    border-bottom: 3px solid black;
+    
+}
+.resume-container {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.contact {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    border-radius: 10px;
+}
+.contact a {
+    font-size: 15px;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 
