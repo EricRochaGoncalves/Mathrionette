@@ -1,6 +1,6 @@
 
 
-*Mathrionette
+Mathrionette
 
 --
 
