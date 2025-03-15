@@ -2,10 +2,13 @@
 
 # Mathrionette
 
+--
 
 Mathrionette é um web app que tem o propósito de ajudar a calcular funções matemáticas avançadas, como funções de 1º, 2º e 3º grau. A ideia surgiu quando eu ainda estava no curso técnico de Informática para a Internet integrado ao 3º ano do ensino médio, onde eu tinha dificuldades para calcular funções avançadas de matemática.
 
 # Funcionalidades
+
+--
 
 Cálculo de Funções de 1º Grau: Resolve equações do tipo .
 
@@ -15,6 +18,8 @@ Cálculo de Funções de 3º Grau: Resolve equações cúbicas do tipo .
 
 
 # Tecnologias Utilizadas
+
+--
 
 HTML
 
@@ -26,6 +31,8 @@ Bibliotecas de JavaScript para otimizar os cálculos e a interação com o usuá
 
 
 # Como Usar
+
+--
 
 1. Acesse o Mathrionette através deste link: Mathrionette.
 
@@ -58,13 +65,6 @@ Bibliotecas de JavaScript para otimizar os cálculos e a interação com o usuá
 
 
 6. Abra um pull request para a branch principal.
-
-
-
-# Licença
-
-Este projeto está sob a licença MIT - consulte o arquivo LICENSE para mais detalhes.
-
 
 ---
 
